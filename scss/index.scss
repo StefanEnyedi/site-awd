@@ -32,9 +32,6 @@ nav {
   @media (max-width: 640px) {
     padding: 2rem 3rem;
   }
-  @media (max-width: 606px) {
-    // padding: 2rem 0rem;
-  }
   .signature {
     display: flex;
     align-items: center;
@@ -86,9 +83,6 @@ nav {
     }
     li:not(li > ul > li) {
       position: absolute;
-      // top: 50%;
-      // left: 50%;
-      // transform: translate(-50%, -50%);
       background-image: linear-gradient($specialColor, $specialColor);
       background-size: 100% 10px;
       background-repeat: no-repeat;
@@ -142,7 +136,6 @@ body {
   flex-direction: column;
 
   .background {
-    // height: 100vh;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -152,18 +145,13 @@ body {
   }
   h1:not(.courseDetail > h1, .contact-form > h1) {
     font-size: 3rem;
-    // margin-top: 3rem;
-    // padding: 0 10rem;
     font-weight: normal;
   }
   .rise {
-    // background-color: black;
     max-width: max-content;
     position: relative;
     display: inline-block;
-    // font-size: 100px;
     color: black;
-    // color: gold;
     &:before {
       content: attr(data-text);
       position: absolute;
@@ -176,7 +164,6 @@ body {
   }
   h1,
   h2 {
-    // padding: 30px 0 8px;
     position: relative;
     max-width: max-content;
   }
@@ -226,11 +213,8 @@ body {
       position: relative;
       padding: 2rem;
       gap: 2rem;
-      // height: 30rem;
-      // background-color: black;
       box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.22), 8px 8px 0 0 rgba(0, 0, 0, 0.22);
       .title {
-        // margin-bottom: 2rem;
         font-size: 2rem;
         font-weight: bold;
         color: $specialTwoColor;
@@ -272,7 +256,6 @@ body {
     padding: 0 10rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    // align-self: stretch;
     gap: 2rem;
     @media (max-width: 1078px) {
       flex-direction: column;
@@ -296,7 +279,6 @@ body {
       flex: 1;
       .info {
         display: flex;
-        // align-items: center;
         flex-direction: column;
         gap: 1.5rem;
         padding: 2rem;
@@ -304,9 +286,6 @@ body {
           8px 8px 0 0 rgba(0, 0, 0, 0.22);
         text-align: left;
         flex: 1;
-        // width: 85rem;
-        // width: 100%;
-        // height: 5rem;
         .subTitle {
           color: $specialTwoColor;
           font-weight: bold;
@@ -328,8 +307,6 @@ body {
         gap: 1.5rem;
       }
       .detail {
-        // margin-bottom: 1.38rem;
-        // flex: 1;
         span {
           font-weight: bold;
           color: $specialTwoColor;
@@ -338,7 +315,6 @@ body {
     }
   }
   .container {
-    // overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -373,10 +349,6 @@ body {
       color: $specialTwoColor;
     }
     .form-group {
-      // display: flex;
-      // display: inline-block;
-      // flex-direction: column;
-
       margin-bottom: 16px;
       label {
         display: inline-block;
@@ -480,7 +452,6 @@ body {
         gap: 0.5rem;
         font-size: 2rem;
         padding: 2rem;
-        // max-width: max-content;
         box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
       }
     }
@@ -490,11 +461,8 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0 15rem;
-    // gap: 1rem;
     height: 100%;
     margin: auto;
-    // box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    //   rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     @media (max-width: 931px) {
       padding: 0 1.5rem;
     }
@@ -536,7 +504,6 @@ body {
     }
     table {
       width: 40rem;
-      // margin: 1.5rem 0 1.5rem 0;
       margin-left: 4rem;
       border-collapse: collapse;
       @media (max-width: 931px) {
@@ -560,7 +527,6 @@ body {
 
     a {
       color: #007bff;
-      // text-decoration: none;
     }
   }
 }
