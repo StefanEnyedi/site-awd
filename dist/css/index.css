@@ -237,6 +237,7 @@ body .sectionA .coursePrimary {
 body .sectionA .coursePrimary .title {
   font-size: 2rem;
   font-weight: bold;
+  color: #0074ba;
 }
 body .sectionA .coursePrimary .lastElement {
   margin-top: auto;
@@ -311,6 +312,10 @@ body .sectionB .announcement .info {
   text-align: left;
   flex: 1;
 }
+body .sectionB .announcement .info .subTitle {
+  color: #0074ba;
+  font-weight: bold;
+}
 body .sectionB .contact {
   display: flex;
   flex-direction: column;
@@ -327,6 +332,7 @@ body .sectionB .contact .test {
 }
 body .sectionB .contact .detail span {
   font-weight: bold;
+  color: #0074ba;
 }
 body .container {
   display: flex;
@@ -369,6 +375,7 @@ body .contact-form .formRow {
 body .contact-form h1 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
+  color: #0074ba;
 }
 body .contact-form .form-group {
   margin-bottom: 16px;
@@ -407,7 +414,7 @@ body .contact-form button {
   width: 100%;
 }
 body .contact-form button:hover {
-  background-color: black;
+  background-color: #0074ba;
 }
 body .aboutMe {
   display: flex;
@@ -494,7 +501,7 @@ body .courseDetail {
 body .courseDetail ul:not(ul > li > ul) {
   width: 50%;
   max-width: max-content;
-  padding: 3.5rem;
+  padding: 2rem 3.5rem;
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
@@ -519,9 +526,13 @@ body .courseDetail ul:not(ul > li > ul) li::marker ul li {
 }
 body .courseDetail h2 {
   margin: 1.5rem 0 1.5rem 0;
+  font-size: 2rem;
+  color: #0074ba;
 }
 body .courseDetail h1 {
   margin: 3rem 0 1.5rem 0;
+  font-size: 2.5rem;
+  color: #0074ba;
 }
 body .courseDetail table {
   width: 40rem;
