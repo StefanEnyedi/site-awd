@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="signature">
+        <a href="index.html">
+          <img
+            class="logo"
+            src="/dist/img/ubb.logo.png"
+            width="50"
+            height="50"
+            alt="Babes-Bolyai University Logo"
+          />
+        </a>
+        <span class="logoText">Enyedi Stefan Andrei</span>
+      </div>
+      <ul class="hamburgerMenu">
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="#" onclick="myFunction()" class="dropBtn">Teaching </a>
+          <ul id="myDropDown" class="dropDown">
+            <li><a href="/dist/htmlcss.html">HTML & CSS</a></li>
+            <li><a href="/dist/javascript.html">JavaScript</a></li>
+            <li><a href="/dist/php.html">PHP</a></li>
+            <li><a href="/dist/sql.html">SQL</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <div class="container">
+      <form action="#" method="post" class="contact-form">
+        <h1>Send a message here:</h1>
+        <div class="formRow">
+          <div class="form-group">
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" name="firstName" required />
+          </div>
+
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required />
+          </div>
+        </div>
+
+        <div class="formRow">
+          <div class="form-group">
+            <label for="section">Section</label>
+            <input type="text" id="section" name="section" required />
+          </div>
+
+          <div class="form-group">
+            <label for="group">Group</label>
+            <input type="text" id="group" name="group" required />
+          </div>
+        </div>
+
+        <div class="formRow">
+          <div class="form-group">
+            <label for="registrationNumber">Registration number</label>
+            <input
+              type="text"
+              id="registrationNumber"
+              name="registrationNumber"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="personalCode">Unique personal code</label>
+            <input type="text" id="personalCode" name="personalCode" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required />
+        </div>
+
+        <div class="form-group full-width">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <div class="form-group full-width">
+          <label for="email">E-mail address</label>
+          <input type="email" id="email" name="email" autocomplete="on" />
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    <footer>
+      <div class="copyrightSsection">
+        <p>
+          &copy; 2024 ENYEDI STEFAN ANDREI, PHD, ASSOC. PROF. ALL RIGHTS
+          RESERVED.
+        </p>
+      </div>
+      <div class="feedback-section">
+        <a href="feedback.html" class="btn window_slide">Feedback</a>
+      </div>
+    </footer>
+    <canvas class="background"></canvas>
+    <script src="/dist/js/index.js"></script>
+  </body>
+</html>
